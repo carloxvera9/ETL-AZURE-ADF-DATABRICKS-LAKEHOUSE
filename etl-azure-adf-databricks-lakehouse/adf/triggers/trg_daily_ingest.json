@@ -1,0 +1,25 @@
+{
+    "name": "trg_daily_ingest_sales_raw2",
+    "properties": {
+        "annotations": [],
+        "runtimeState": "Stopped",
+        "pipelines": [
+            {
+                "pipelineReference": {
+                    "referenceName": "pl_ingest_sales_raw",
+                    "type": "PipelineReference"
+                }
+            }
+        ],
+        "type": "ScheduleTrigger",
+        "typeProperties": {
+            "recurrence": {
+                "frequency": "Minute",
+                "interval": 2,
+                "startTime": "2026-01-17T13:53:00",
+                "endTime": "2026-01-17T15:00:00",
+                "timeZone": "SA Pacific Standard Time"
+            }
+        }
+    }
+}
