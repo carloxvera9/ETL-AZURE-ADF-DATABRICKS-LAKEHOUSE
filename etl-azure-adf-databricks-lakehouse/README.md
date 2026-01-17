@@ -11,7 +11,6 @@ arquitectura Lakehouse (RAW → SILVER → GOLD).
 - Azure Databricks (transformaciones)
 - Delta Lake (formato)
 
-![architecture](architecture/architecture_diagram.png)
 
 ## 🔄 Flujo del pipeline
 1. Trigger diario inicia la ingesta
@@ -29,3 +28,4 @@ arquitectura Lakehouse (RAW → SILVER → GOLD).
 
 ## 🚀 Resultado
 Pipeline completamente automatizado sin intervención manual.
+
